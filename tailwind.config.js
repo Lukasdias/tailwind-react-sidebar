@@ -6,7 +6,15 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        'body-color': "#dce4e3",
+        'sidebar-green': '#18c29c',
+        'sidebar-light-green': '#8ed7c6',
+        'sidebar-grey': '#084236',
+        'sidebar-light-grey': '#dce4e3',
+      }
+    }
   },
   plugins: []
 }
